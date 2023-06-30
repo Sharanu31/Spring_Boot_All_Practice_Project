@@ -1,0 +1,28 @@
+package com.example.rev.serviceImpTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.rev.entity.Department;
+import com.example.rev.service.DepartmentService;
+
+@SpringBootTest
+public class DepartmentServiceImpTest {
+
+	@Autowired
+	private DepartmentService departmentService;
+	
+	@Test
+	void creatingDepartment() throws Exception {
+		Department inputDepartment = Department.builder().deptName("Tenjin Adapter").build();
+		
+		Department outputDepartment = departmentService.saveDepartment(inputDepartment);
+		
+		assertEquals("Tenjin Adapter", outputDepartment.getDeptName());
+	}
+	
+	
+}

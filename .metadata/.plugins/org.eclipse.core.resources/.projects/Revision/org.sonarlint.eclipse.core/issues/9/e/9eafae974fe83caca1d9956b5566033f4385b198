@@ -1,0 +1,19 @@
+
+‘
+java:S1607#"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(¢ªÈÈ8ÔÅØ1HRMAJORZ
+CODE_SMELL
+‘
+java:S16076"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(½€Ñ8À€¤Ù1H‚RMAJORZ
+CODE_SMELL
+P
+java:S5786"Remove this 'public' modifier.(ìÈ’”8Ò­âÖ1HƒRINFOZ
+CODE_SMELL
+–
+java:S1607B"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(ˆ›Öüÿÿÿÿÿ8À€¤Ù1H…RMAJORZ
+CODE_SMELL
+–
+java:S1607-"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(¤Èüÿÿÿÿ8º¹ĞØ1H†RMAJORZ
+CODE_SMELL
+–
+java:S1607"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(í“†¸ûÿÿÿÿ8ÈÔ÷×1H‡RMAJORZ
+CODE_SMELL

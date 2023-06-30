@@ -1,0 +1,6 @@
+package com.example.rev.serviceImp;
+
+
+public class DepartmentServiceImp implements DepartmentService {
+
+}

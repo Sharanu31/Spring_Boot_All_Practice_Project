@@ -1,0 +1,8 @@
+
+|
+java:S36556"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ä§…©8¢∂î›ê1HÚRMAJORZBUG
+a
+java:S10668"/Merge this if statement with the enclosing one.(–ﬂÎ8¡≥π›ê1HÛRMAJORZ
+CODE_SMELL
+Ö	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êâ”ÆH¯RMINORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+package com.example.rev.serviceImpTest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.rev.serviceImp.DepartmentServiceImp;
+
+public class DepartmentServiceImpTest {
+
+	@Autowired
+	private DepartmentServiceImp departmentServiceImp;
+	
+}

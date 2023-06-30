@@ -1,0 +1,38 @@
+package com.example.rev.serviceImp;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.rev.entity.Department;
+import com.example.rev.repository.DepartmentRepository;
+import com.example.rev.service.DepartmentService;
+
+public class DepartmentServiceImp implements DepartmentService {
+
+	@Autowired
+	private DepartmentRepository
+	
+	@Override
+	public Department saveDepartment(Department dept) {
+		
+		
+		return null;
+	}
+
+	@Override
+	public Department fectchByDepatmentName(String deptName) {
+		return null;
+	}
+
+	@Override
+	public List<Department> fetchAllDeparmtent() {
+		return null;
+	}
+
+	@Override
+	public Department fetchByDepartmentID(Long deparmtentID) {
+		return null;
+	}
+
+}

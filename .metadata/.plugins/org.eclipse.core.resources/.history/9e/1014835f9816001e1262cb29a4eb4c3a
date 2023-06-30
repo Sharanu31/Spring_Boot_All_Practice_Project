@@ -1,0 +1,9 @@
+package com.example.rev.service;
+
+import com.example.rev.entity.Department;
+
+public interface DepartmentService {
+
+	Department saveDepartment(Department dept);
+	
+}
