@@ -1,5 +1,0 @@
-package com.example.rev.service;
-
-public interface DepartmentService {
-
-}

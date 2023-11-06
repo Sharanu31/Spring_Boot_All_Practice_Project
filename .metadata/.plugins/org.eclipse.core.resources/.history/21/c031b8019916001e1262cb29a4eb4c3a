@@ -1,6 +1,0 @@
-package com.example.rev.serviceImp;
-
-
-public class DepartmentServiceImp extends DepartmentService {
-
-}

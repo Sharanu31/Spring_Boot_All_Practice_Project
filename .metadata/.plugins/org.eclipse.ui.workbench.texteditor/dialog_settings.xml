@@ -7,7 +7,6 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="package com.example.rev.serviceImp;"/>
 		</list>
 		<list key="replacehistory">
 		</list>

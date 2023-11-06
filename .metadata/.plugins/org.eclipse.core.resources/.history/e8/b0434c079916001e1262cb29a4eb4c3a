@@ -1,7 +1,0 @@
-package com.example.rev.serviceImp;
-
-import com.example.rev.service.DepartmentService;
-
-public class DepartmentServiceImp implements DepartmentService {
-
-}

@@ -1,6 +1,7 @@
 package com.example.rev.serviceImp;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,11 +24,11 @@ public class EmployeeServiceImp implements EmployeeService {
 		Optional<Employee> duplicate = Optional
 				.ofNullable(employeeRepository.findByempFirstName(emply.getEmpFirstName()));
 		if (!duplicate.isEmpty()) {
-			throw new Exception("Employee with name " + emply.getEmpFirstName() + " already exist");
+			throw new IllegalArgumentException("Employee with name " + emply.getEmpFirstName() + " already exist");
 		}
 
-		if (StringUtils.hasLength(emply.getEmpFirstName())) {
-			throw new Exception("Employee with name should not be empty");
+		if (!StringUtils.hasLength(emply.getEmpFirstName())) {
+			throw new IllegalArgumentException("Employee with name should not be empty");
 
 		}
 		return employeeRepository.save(emply);
@@ -46,6 +47,20 @@ public class EmployeeServiceImp implements EmployeeService {
 	@Override
 	public Optional<Employee> fetchByDepartmentID(Long emplyID) {
 		return employeeRepository.findById(emplyID);
+	}
+
+	@Override
+	public Employee updateEmployeeDetails(Long emplyID, Employee employee) {
+		Optional<Employee> emp = employeeRepository.findById(employee.getId());
+		if (emp.isPresent()) {
+			if (Objects.nonNull(employee.getEmpLastName()) && !"".equalsIgnoreCase(employee.getEmpLastName())) {
+				emp.get().setEmpLastName(employee.getEmpLastName());
+			}
+			if (Objects.nonNull(employee.getEmpFirstName()) && !"".equalsIgnoreCase(employee.getEmpFirstName())) {
+				emp.get().setEmpFirstName(employee.getEmpFirstName());
+			}
+		}
+		return employeeRepository.save(emp.get());
 	}
 
 }

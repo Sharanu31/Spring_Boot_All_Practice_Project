@@ -1,5 +1,0 @@
-package com.example.rev.repository;
-
-public interface DepartmentRepository {
-
-}

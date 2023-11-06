@@ -1,0 +1,45 @@
+Entity
+
+A. Entity 1  , JobListings
+            
+1.JobID                
+2.Role               
+3.Company Name 	       
+4.Ratings              
+5.Reviews              
+6.Experiance           
+7.Salary              
+8.Location             
+9.Skills               
+10.Job Description
+11.Responsibilities
+12.Department
+
+B. Entity 2 , Job Seekers
+
+1.ID
+2.EmployeeName
+3.Location
+4.Current Company
+5.Fresher/Experienced
+6.Total experience
+7.Current salary
+8.Mobile number
+9.Email address
+10.Notice period
+
+
+
+Controller , JobListings
+
+1. findJobByRole
+2. findJobByCompanyName
+3. findJobByRoleANDExperiance
+4. findJobBySkills
+5. findJonByRoleExpLocaANDSkill
+6. findJobByDepartment
+
+
+Controller  , Job Seekers
+
+

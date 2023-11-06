@@ -1,0 +1,89 @@
+ {
+        "typeOfPet":"Cat",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Abyssinian"
+    }
+
+ {
+        "typeOfPet":"Cat",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Siamese cat"
+    }
+
+
+ {
+        "typeOfPet":"Cat",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"British Shorthair"
+ }
+
+------------------------------
+
+{
+        "typeOfPet":"Dog",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"German Shepherd"
+    }
+
+
+{
+        "typeOfPet":"Dog",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Alaskan Malamute"
+    }
+
+
+{
+        "typeOfPet":"Dog",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Golden Retriever"
+    }
+
+-----------------------------------------
+
+{
+        "typeOfPet":"Birds",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Cockatoo"
+    }
+
+{
+        "typeOfPet":"Birds",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Macaw"
+    }
+
+Canary
+
+{
+        "typeOfPet":"Birds",
+        "petvacci":"Yes",
+        "petage":1,
+        "adptstatus":"Available",
+        "abt_pet":"Lovely and caring",
+        "breed":"Columbidae"
+    }

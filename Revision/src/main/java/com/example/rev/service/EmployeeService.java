@@ -14,4 +14,6 @@ public interface EmployeeService {
 	List<Employee> fetchAllDeparmtent();
 
 	Optional<Employee> fetchByDepartmentID(Long emplyID);
+	
+	Employee updateEmployeeDetails(Long emplyID,Employee employee);
 }

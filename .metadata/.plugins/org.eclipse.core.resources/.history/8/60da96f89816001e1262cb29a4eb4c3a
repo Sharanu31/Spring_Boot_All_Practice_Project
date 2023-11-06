@@ -1,7 +1,0 @@
-package com.example.rev.serviceImp;
-
-import com.example.rev.entity.Department;
-
-public class DepartmentServiceImp extends Department {
-
-}
