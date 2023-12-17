@@ -18,7 +18,7 @@ import com.carfetu.entity.Feature;
 import com.carfetu.service.FeatureService;
 
 @SpringBootTest
-//@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
+@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
 class FeatureServiceImpTest {
 
 	@Autowired

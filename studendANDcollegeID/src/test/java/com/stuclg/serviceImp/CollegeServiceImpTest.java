@@ -35,21 +35,21 @@ public class CollegeServiceImpTest {
 	public College inputCollege1() {
 		College inputCollege = new College();
 		inputCollege.setCollegeID("1SAD");
-		inputCollege.setID(1L);
+		inputCollege.setiD(1L);
 		return inputCollege;
 	}
 
 	public College inputCollege2() {
 		College inputCollege = new College();
 		inputCollege.setCollegeID("2SCD");
-		inputCollege.setID(1L);
+		inputCollege.setiD(1L);
 		return inputCollege;
 	}
 
 	public College inputCollegeWithStudentDet() {
 		College inputCollege = new College();
 		inputCollege.setCollegeID("1SAD");
-		inputCollege.setID(1L);
+		inputCollege.setiD(1L);
 		//inputCollege.setStudent(inputStudent());
 		return inputCollege;
 	}

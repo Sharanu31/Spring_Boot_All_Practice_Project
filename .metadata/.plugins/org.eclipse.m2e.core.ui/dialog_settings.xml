@@ -3,6 +3,7 @@
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
 			<item value="D:\D Driver Back-up Noc-30-2023\SpringProject WorkSpace\SpringBootPracticeWS"/>
+			<item value="D:\D Driver Back-up Noc-30-2023\SpringProject WorkSpace\SpringBootPracticeWS\Travel-Planner-Spring-Boot-Project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

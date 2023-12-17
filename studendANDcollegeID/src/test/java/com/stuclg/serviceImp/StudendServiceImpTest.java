@@ -42,7 +42,7 @@ public class StudendServiceImpTest {
 	public College inputCollege() {
 		College inputCollege = new College();
 		inputCollege.setCollegeID("1S");
-		inputCollege.setID(1L);
+		inputCollege.setiD(1L);
 		return inputCollege;
 	}
 };
