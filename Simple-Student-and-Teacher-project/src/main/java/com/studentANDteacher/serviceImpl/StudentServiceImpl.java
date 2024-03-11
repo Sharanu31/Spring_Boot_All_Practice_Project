@@ -40,7 +40,7 @@ public class StudentServiceImpl implements StudentService {
 	public Student findStudentbyName(String studentName) {
 		Student savedStudent = studentRepository.findByName(studentName);
 		if (savedStudent == null)
-			throw new ExecutionException("Data not found exception : " + studentName);
+			throw new IllegalArgumentException("Data not found exception : " + studentName);
 		return savedStudent;
 	}
 
@@ -53,7 +53,6 @@ public class StudentServiceImpl implements StudentService {
 	@Override
 	public Student updateStudent(int studentID, Student student) {
 		Student savedStudent = studentRepository.findById(studentID).get();
-		studentRepository.save(savedStudent);
-		return null;
+		return studentRepository.save(savedStudent);
 	}
 }
